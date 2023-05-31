@@ -6,19 +6,19 @@ def countdown(number):
         print(f'{i} SECOND(S)!')
         i -= 1
     if i == 0:
-        print("HAPPY NEW YEAR")
+        print("HAPPY NEW YEAR!")
         
 countdown(10)
 
 
 
-def countdown(number):
+def countdown_with_sleep(number):
     i = number
     while i > 0:
         print(f'{i} SECOND(S)!')
         time.sleep(1)
         i -= 1
     if i == 0:
-        print("HAPPY NEW YEAR")
+        print("HAPPY NEW YEAR!")
         
-countdown(10)
+countdown_with_sleep(10)
